@@ -3,3 +3,7 @@ alias yaml2json="python -c 'import sys,yaml,json; print(json.dumps(yaml.safe_loa
 alias t='terraform'
 alias gn='gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled true'
 alias gm='gsettings set org.gnome.settings-daemon.plugins.color night-light-enabled false'
+alias v='vagrant'
+alias mk='minikube'
+alias k='kubectl'
+alias p='packer'
