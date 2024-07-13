@@ -11,3 +11,11 @@ function seecert () {
   nslookup $1
   (openssl s_client -showcerts -servername $1 -connect $1:443 <<< "Q" | openssl x509 -text | grep -iA2 "Validity")
 }
+
+
+function kindlize () {
+  for book in *.$1; do
+    echo "Converting $book"
+    ebook-convert "$book" "$(basename "$book" .$1).azw3";
+  done
+}
