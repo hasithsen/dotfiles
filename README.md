@@ -1,2 +1,2 @@
 # dotfiles
-Dotfiles, configured with love
+Dotfiles, configured with care
