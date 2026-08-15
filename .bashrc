@@ -55,3 +55,7 @@ function dc () {
 
     echo "Cleanup complete!"
 }
+
+fix_uvlock () {
+    docker run --rm -v "$(pwd)":/app -w /app python:3.12-slim sh -c "pip install uv && uv lock"
+}
