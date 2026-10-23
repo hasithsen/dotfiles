@@ -1,0 +1,18 @@
+# Force Ghostty to open at a specific dimension every time
+window-width = 110
+window-height = 35
+# Copy text automatically when selected
+copy-on-select = clipboard
+# Adjusts text contrast automatically to protect your eyes
+minimum-contrast = 4.5
+# Set the default font size (supports decimals)
+font-size = 13
+# Force Ghostty to use the path provided by Nautilus
+working-directory = inherit
+gtk-single-instance = false
+window-inherit-working-directory = false
+# Keep inside-terminal tabs working normally
+tab-inherit-working-directory = true
+split-inherit-working-directory = true
+# ctrl+bkspc delete word
+keybind = ctrl+backspace=text:\x1b\x7f
